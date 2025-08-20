@@ -1,14 +1,13 @@
 # SRAM Memory Controller Verification with SystemVerilog
 # Abstract
-This project verifies a 256x8 synchronous SRAM memory controller using a SystemVerilog testbench. It employs constrained-random stimuli, SystemVerilog Assertions (SVA), and functional coverage to validate read/write operations, achieving 100% functional and code coverage. Simulated on EDA Playground (Aldec Riviera-PRO), results include code, waveforms, and coverage reports, uploaded to this GitHub repository.
-Why: Ensures hardware reliability pre-fabrication, critical for ASIC design to avoid costly silicon defects. Teaches SystemVerilog verification skills for memory IPs (e.g., SoC caches).
-Use: A portfolio project for VLSI verification roles, demonstrating random testing, SVA, and coverage analysis.
+This project verifies a 256x8 synchronous SRAM memory controller using a SystemVerilog testbench. It employs constrained-random stimuli, SystemVerilog Assertions (SVA), and functional coverage to validate read/write operations, achieving 100% functional and code coverage. Simulated on EDA Playground (Aldec Riviera-PRO), results include code, waveforms, and coverage reports.
+
 # Objective
 
 Verify SRAM read/write functionality with one-cycle latency using a SystemVerilog testbench.
 Achieve 100% functional (address/operation bins) and code coverage (statement/branch/toggle).
 Fix bugs (e.g., timing, data mismatches) using SVA and scoreboard.
-Share code, test plan, waveforms, and coverage reports on GitHub.
+
 
 # Working
 
