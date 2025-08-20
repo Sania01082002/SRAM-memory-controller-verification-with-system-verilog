@@ -52,3 +52,9 @@ Debugging: Waveforms and logs pinpointed timing mismatches.
 The SRAM is fully verified with no errors, 100% coverage, and documented results (code, VCD, reports) in this repository. It’s a reusable SystemVerilog verification demo for learning ASIC testing or showcasing VLSI skills. Extend it for FIFO or UVM-based verification.
 
 ## Files
+- design.sv : DESIGN CODE
+- testbench.sv : TESTBENCH CODE
+- RESULT_waveform.png : COMPLETE WAVEFORM
+- RESULT_write_operation.png : example of data written to address
+- RESULT_read_operation.png : example of data read from the same address
+- RESULT_console_sample : snippet of console
