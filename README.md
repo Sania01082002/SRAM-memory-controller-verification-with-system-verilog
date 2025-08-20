@@ -1,0 +1,2 @@
+# SRAM-memory-controller-verification-with-system-verilog
+Verifies a 256x8 SRAM (Verilog) using a SystemVerilog testbench with constrained-random stimuli, SVA for one-cycle timing, and covergroup for 100% functional coverage (address bins: 0-63, 64-127, 128-191, 192-255; read/write). A scoreboard checks data integrity. Simulated on EDA Playground (Aldec Riviera-PRO), it achieves 100% functional coverage.
